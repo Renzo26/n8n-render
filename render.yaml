@@ -17,6 +17,6 @@ services:
     ports:
       - 80:5678
     disks:
-      - name: data
+      - name: n8n-data
         mountPath: /home/node/.n8n
         sizeGB: 1
